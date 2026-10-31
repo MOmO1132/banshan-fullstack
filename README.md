@@ -27,7 +27,7 @@ npm run dev         # http://localhost:5173
 cd web && npm run build
 ```
 
-演示账号：**demo / demo123456**（共 8 个账号，密码均为 demo123456）
+演示账号：**demo / demo123456**（另有 林深 / 周愚 / 沈白 / 阿禾 / 小满 / 老陈 / 阿吉，共 8 个账号，密码相同）
 
 环境变量见 `server/.env.example`：
 
