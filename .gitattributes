@@ -1,0 +1,16 @@
+# 统一换行符：仓库内一律 LF，检出时按平台转换
+* text=auto eol=lf
+
+# 二进制资源不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.db binary
+
+# 这些文件在 Windows 下也必须保持 LF，否则脚本/配置会被破坏
+*.sh text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.sql text eol=lf
