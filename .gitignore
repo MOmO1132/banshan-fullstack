@@ -1,0 +1,34 @@
+# ---------- 依赖 ----------
+node_modules/
+.pnpm-store/
+
+# ---------- 构建产物 ----------
+web/dist/
+server/dist/
+*.tsbuildinfo
+
+# ---------- 数据库与运行时数据 ----------
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+!server/data/.gitkeep
+
+# ---------- 环境变量（含 JWT_SECRET） ----------
+.env
+.env.local
+.env.*.local
+
+# ---------- 日志 ----------
+*.log
+npm-debug.log*
+
+# ---------- 截图：由 scripts/shots.mjs 生成，属可复现产物，不入库 ----------
+screenshots/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
